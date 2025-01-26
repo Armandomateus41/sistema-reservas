@@ -1,0 +1,36 @@
+.wrap h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+table.widefat {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.widefat th {
+    background: #f1f1f1;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+}
+
+table.widefat td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+button.button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #007cba;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.button:hover {
+    background-color: #005a8c;
+}
